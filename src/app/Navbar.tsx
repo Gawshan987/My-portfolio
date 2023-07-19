@@ -2,14 +2,12 @@ import NavbarItem from "./NavbarItem";
 
 export default function Navbar() {
   return (
-    <div>
-      <div className="grid grid-cols-3 w-full justify-between items-center p-4 gap-3 bg-black  ">
-        <h1 className="text-3xl static">Gawshan</h1>
-        <div className="flex flex-row gap-2 place-content-center">
-          <NavbarItem title={"Home"} />
-          <NavbarItem title={"Projects"} />
-          <NavbarItem title={"About"} />
-        </div>
+    <div className="flex justify-between items-center w-full bg-black px-8 py-4 ">
+      <h1 className="text-3xl static items-center">Gawshan</h1>
+      <div className="flex flex-end gap-2 ">
+        <NavbarItem title={"Home"} />
+        <NavbarItem title={"About"} />
+        <NavbarItem title={"Projects"} />
       </div>
     </div>
   );

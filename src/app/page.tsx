@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col items-center mx-4  mt-10">
         <Intro />
-        <div></div>
+        <div className="bg-[url(https://images4.alphacoders.com/839/83944.jpg)]"></div>
         <AboutMe />
         <Project />
         <Skills />

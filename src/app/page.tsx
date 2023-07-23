@@ -1,7 +1,4 @@
-import Image from "next/image";
 import Navbar from "./Navbar";
-import backgroundImage from "../images./white.png";
-import NavbarItem from "./NavbarItem";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Intro from "./Intro";

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 justify-center border-red-600 border-4 items-center mt-12">
-      <div className="w-full flex flex-col items-center ">
+    <div className="grid sm:grid-cols-2 grid-cols-1 justify-center items-center mt-16">
+      <div className="w-full flex flex-col items-center">
         <h1 className="text-white font-semibold text-3xl font-sans">
           My Story
         </h1>

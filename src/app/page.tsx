@@ -5,6 +5,7 @@ import NavbarItem from "./NavbarItem";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Intro from "./Intro";
+import Skills from "./Skills";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Intro />
         <AboutMe />
         <Project />
+        <Skills />
       </div>
     </div>
   );

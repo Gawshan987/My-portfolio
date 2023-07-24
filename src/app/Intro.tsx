@@ -9,7 +9,7 @@ export default function Intro() {
       <h1 className="flex flex-col-1 justify-center selection:bg-violet-400 selection:text-violet-700">
         I'm a Web Desginer and React Dev?
       </h1>
-      <div className="flex flex-col-1 justify-center mt-10 border-4">
+      <div className="flex flex-col-1 justify-center mt-10 sm:border-4">
         <img className=" w-72 sm:w-full" src="/face.png"></img>
       </div>
     </div>

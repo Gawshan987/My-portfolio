@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div className="w-full mt-16">
+    <div className="mt-16 sm:mx-16">
       <div className="flex flex-col items-center">
         <h1 className="text-white pt-10 text-5xl">Projects</h1>
       </div>

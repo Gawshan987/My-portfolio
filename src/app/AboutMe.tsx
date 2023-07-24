@@ -4,7 +4,6 @@ export default function AboutMe() {
   return (
     <div className="grid sm:grid-cols-2 grid-cols-1 justify-center items-center mt-40">
       <div className="w-full flex flex-col items-center">
-        <h1 className="flex flex-col">About Me</h1>
         <h1 className="text-white font-semibold text-3xl font-sans">
           My Story
         </h1>

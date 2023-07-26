@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div className="mt-16 sm:mx-16">
+    <div id="projects" className="mt-16 sm:mx-16">
       <div className="flex flex-col items-center">
         <h1 className="text-white pt-10 text-5xl">Projects</h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 w-full place-items-center mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 w-full place-items-center mt-12 gap-16">
         <div className="flex flex-col items-center w-full">
           <p className="text-white pt-20 text-3xl ">Space Invaders</p>
           <p className="text-white pt-4 text-justify sm:p10">
@@ -20,7 +20,7 @@ export default function Project() {
           </p>
         </div>
         <div>
-          <img className="w-full h-full" src="/spaceinvaders.png"></img>
+          <img className="w-full h-full " src="/spaceinvaders.png"></img>
         </div>
         <div className="w-full flex flex-col items-center">
           <p className="text-white pt-20 text-3xl">Memory Game</p>

@@ -2,9 +2,12 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 justify-center items-center mt-40">
+    <div
+      id="about"
+      className="grid sm:grid-cols-2 grid-cols-1 justify-center items-center mt-40"
+    >
       <div className="w-full flex flex-col items-center">
-        <h1 className="text-white font-semibold text-3xl font-sans">
+        <h1 className="text-white font-semibold text-3xl font-sans sm:py-0 py-4">
           My Story
         </h1>
         <p className="text-white sm:p-10 text-justify">

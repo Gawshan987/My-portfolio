@@ -7,9 +7,11 @@ export default function Navbar() {
         <h1 className="text-3xl items-center hover:text-violet-500 transition-colours sm:py-4 py-4">
           Gawshan
         </h1>
-        <a target="_blank" href="www.github.com/gawshan987">
-          <p>GH Icon</p>
-          <img className="github-icon" src="" alt="GitHub Icon"></img>
+        <a target="_blank" href="https://github.com/Gawshan987">
+          <img
+            src="/github.png"
+            className="w-6 h-6 text-white hover:text-violet-500"
+          ></img>
         </a>
       </div>
       <div className="flex gap-2 justify-center">

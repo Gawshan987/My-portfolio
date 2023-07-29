@@ -10,7 +10,7 @@ export default function Navbar() {
         <a target="_blank" href="https://github.com/Gawshan987">
           <img
             src="/github.png"
-            className="w-6 h-6 text-white hover:text-violet-500"
+            className="w-8 h-8 text-white hover:text-violet-500"
           ></img>
         </a>
       </div>

@@ -19,6 +19,7 @@ export default function AboutMe() {
           accomplish.
         </p>
       </div>
+
       <div className="flex flex-row justify-center">
         <img
           className="sm:w-full object-contain sm:h-80 h-60 w-60"

@@ -9,23 +9,27 @@ export default function Skills() {
       <div className="w-full sm:flex sm:flex-row grid grid-cols-3 items-center border-4">
         <img
           className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
-          src="/html.png"
-        ></img>
-        <img
-          className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
-          src="/css.png"
+          src="/react.png"
         ></img>
         <img
           className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
           src="/js_logo.png"
         ></img>
         <img
-          className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
-          src="/react.png"
-        ></img>
-        <img
           className="w-48 h-44 p-4 object-cover"
           src="/type_script.png"
+        ></img>
+        <img
+          className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
+          src="/html.png"
+        ></img>
+        <img
+          className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
+          src="/tailwind.png"
+        ></img>
+        <img
+          className="w-48 h-44 p-4 object-cover hover:scale-110 transform transition-all"
+          src="/gd_script.png"
         ></img>
       </div>
     </div>

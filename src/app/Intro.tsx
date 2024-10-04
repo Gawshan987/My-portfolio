@@ -9,8 +9,12 @@ export default function Intro() {
       <h1 className="flex flex-col-1 justify-center selection:bg-violet-400 selection:text-violet-700">
         I'm a Web Desginer and React Dev
       </h1>
-      <div className="flex flex-col-1 justify-center mt-10 sm:border-4">
-        <img className=" w-72 sm:w-full" src="/face.png"></img>
+      <div className="flex flex-col-1 justify-center mt-10 sm:border-4 overflow-hidden border-2 border-transparent hover:border-blue-500 transition-all duration-300 ease-in-out">
+        <img
+          className=" w-72 sm:w-full transform transition-transform duration-300 ease-in-out hover:scale-110"
+          alt="Pop-out and border animation on hover"
+          src="/face.png"
+        ></img>
       </div>
     </div>
   );

@@ -10,13 +10,13 @@ export default function Project() {
         <div className="flex flex-col items-center w-full">
           <p className="text-white pt-20 text-3xl ">Space Invaders</p>
           <p className="text-white pt-4 text-justify sm:p10">
-            This game is a simple version of Space Invaders using blocks but
-            gravity has been added. When the "z" key is been pressed the
-            controls are flipped and the invaders move in a backwards sequence
-            upwards, and when the key is pressed again it moves downwards. From
-            creating this game I've learned functions, arrays, loops, and how to
-            add gravity and track the movements direction which I had found
-            challenging.
+            This game is a simplified take on Space Invaders, featuring blocks
+            with an added gravity mechanic. When the "Z" key is pressed, the
+            controls are inverted, causing the invaders to move upward in
+            reverse, and pressing the key again makes them descend. Through the
+            development of this game, I gained valuable experience with
+            functions, arrays, and loops, while also tackling the challenges of
+            implementing gravity and tracking movement direction.
           </p>
         </div>
         <div>
@@ -25,10 +25,11 @@ export default function Project() {
         <div className="w-full flex flex-col items-center">
           <p className="text-white pt-20 text-3xl">Memory Game</p>
           <p className="text-white pt-4 text-justify sm:p10">
-            This is a basic memory game where you click on a square and try to
-            match it with another until all of the squares are matched. From
-            making this I've practiced making functions and arrays more
-            effectively.
+            This is a simple yet engaging memory game where players click on
+            squares to find matching pairs until all squares are paired. Through
+            the development of this game, I honed my skills in creating
+            functions and effectively utilizing arrays, deepening my
+            understanding of game logic and interactive design.
           </p>
         </div>
         <div>
